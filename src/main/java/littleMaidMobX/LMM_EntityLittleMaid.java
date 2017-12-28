@@ -214,7 +214,7 @@ public class LMM_EntityLittleMaid extends EntityTameable implements ITextureEnti
 			}
 			else
 			{
-				GameRules gameRules = par1World.getGameRules();
+				GameRules gameRules = world.getGameRules();
 				NBTTagCompound oldGameRules = gameRules.writeGameRulesToNBT();
 				gameRules.setOrCreateGameRule("spawnRadius", "0");
 
